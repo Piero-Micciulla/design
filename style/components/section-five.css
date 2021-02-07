@@ -1,0 +1,127 @@
+.section-five {
+  background-color: #cfb672;
+}
+
+.container-five {
+  margin: 0 auto;
+  padding: 80px;
+  display: flex;
+  width: 80%;
+  gap: 30px;
+  position: relative;
+}
+
+.container-five h1 {
+  color: #ca138b;
+  padding: 50px 0;
+  transform: translate(-80px, 0);
+  padding-left: 40%;
+}
+.container-five h1 strong {
+  font-weight: 700;
+}
+.container-five h1 em {
+  font-weight: 100;
+}
+
+.container-five ul {
+  padding-left: 40%;
+}
+
+.text-container-five .description {
+  color: black;
+  font-weight: 100;
+  padding-left: 40%;
+  padding-bottom: 5%;
+}
+
+ul {
+  list-style: none;
+}
+
+.fucsia {
+  color: #ca138b;
+}
+
+.big-circle {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  background-image: url("../../images/girl2.jpg");
+  background-size: cover;
+  position: absolute;
+  bottom: 120px;
+}
+
+.half-bottom-circle {
+  width: 200px;
+  height: 100px;
+  border-top-left-radius: 110px;
+  border-top-right-radius: 110px;
+  border-bottom: 0;
+  background-image: url("../../images/girl2.jpg");
+  background-size: contain;
+  position: absolute;
+  bottom: 0px;
+}
+
+.small-triangle {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 80px solid lightblue;
+  background-image: url("images/guy1.jpg");
+  background-size: contain;
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+}
+
+.half-big-circle {
+  height: 150px;
+  width: 120px;
+  border-radius: 0 90px 90px 0;
+  -moz-border-radius: 0 90px 90px 0;
+  -webkit-border-radius: 0 90px 90px 0;
+  background-image: url("../../images/girl.jpg");
+  background-size: cover;
+  position: absolute;
+  right: 720px;
+  bottom: 80px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 120px solid lightblue;
+  background-image: url("../../images/girl.jpg");
+  background-size: contain;
+  position: absolute;
+  left: 0px;
+}
+
+.small-circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-image: url("../../images/girl.jpg");
+  background-size: cover;
+  position: absolute;
+  left: 300px;
+  bottom: 390px;
+}
+
+.half-circle {
+  width: 100px;
+  height: 100px;
+  background-image: url("../../images/guy1.jpg");
+  border-radius: 0 0 100px 0;
+  -moz-border-radius: 0 0 100px 0;
+  -webkit-border-radius: 0 0 100px 0;
+  background-size: cover;
+  position: absolute;
+  bottom: 459px;
+}

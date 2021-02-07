@@ -1,0 +1,67 @@
+.section-one {
+  display: flex;
+}
+
+.banner {
+  background-image: url("../../images/girl.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 47rem;
+  width: 90rem;
+  flex: 1;
+}
+
+.intro {
+  background-color: #00ae74;
+  flex: 1;
+}
+
+.banner-upper {
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-right: 23%;
+  margin-bottom: 10%;
+}
+
+.banner-upper h1:first-child {
+  color: #ffffff;
+  font-size: 35px;
+  padding: 50px 0;
+}
+
+.banner-upper h1 {
+  padding: 5px 0;
+}
+
+.banner-upper h1 em {
+  font-weight: 100;
+}
+
+.banner-upper h1 {
+  color: #67257b;
+}
+
+.banner-upper p {
+  padding-top: 50px;
+  color: #ffffff;
+}
+
+.banner-bottom {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.banner-bottom h3 {
+  padding-bottom: 5px;
+  color: #67257b;
+  font-weight: 700;
+}
+
+.banner-bottom li {
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.fa-caret-right {
+  color: #67257b;
+}

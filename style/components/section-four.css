@@ -1,0 +1,87 @@
+.section-four {
+  background-color: #f27832;
+  width: 100%;
+  padding: 40px;
+}
+
+.section-four > h1 {
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.section-four em {
+  font-weight: 100;
+}
+
+.container-four {
+  margin: 30px auto;
+  max-width: 80%;
+}
+
+.container-upper {
+  display: flex;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.user-review {
+  padding: 20px;
+}
+
+.user-review p {
+  padding: 20px 0;
+}
+
+.user-review h1 {
+  color: #67257b;
+}
+
+.avatar-box {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  height: 50px;
+  align-items: center;
+}
+
+.avatar-box img {
+  border-radius: 50%;
+}
+
+.container-bottom {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.container-bottom p {
+  max-width: 350px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.container-bottom h4 {
+  color: #67257b;
+}
+
+.image-card {
+  margin-bottom: 10px;
+  background-size: cover;
+  border-radius: 4px;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  transform: scale(1);
+  transition: 0.2s ease-in-out;
+}
+
+.image-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.orange-card h4 {
+  padding-bottom: 25px;
+}
